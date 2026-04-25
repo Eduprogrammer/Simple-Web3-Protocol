@@ -1,4 +1,23 @@
+![Solidity](https://img.shields.io/badge/Solidity-0.8.x-blue)
+![Hardhat](https://img.shields.io/badge/Hardhat-Framework-yellow)
+![Network](https://img.shields.io/badge/Network-Sepolia-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
 # 🚀 Simple Web3 Protocol
+
+## 🌐 Contratos (Sepolia)
+
+Os contratos foram implantados na rede Sepolia e podem ser consultados publicamente:
+
+- 🪙 Token: https://sepolia.etherscan.io/address/0x612141d3Bc40D788D5817d6f515868F8Ca383c43
+- 🖼️ NFT: https://sepolia.etherscan.io/address/0x86B9f2BB1B8a78fd8356054Bc256e1D7627CC8F1
+- 💰 Staking: https://sepolia.etherscan.io/address/0x44F1795bB69Ac835185E96a9d317F9785029A381
+- 🗳️ DAO: https://sepolia.etherscan.io/address/0xb4C5a7d16d081054CBA79DCF0e108FcFDB438f43
+
+### 🔍 Código verificado (Blockscout)
+
+- Token: https://eth-sepolia.blockscout.com/address/0x612141d3Bc40D788D5817d6f515868F8Ca383c43#code
 
 ## 📌 Descrição
 Projeto Aula  Residência TIC29 - Web3
