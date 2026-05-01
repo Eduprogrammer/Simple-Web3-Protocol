@@ -2,9 +2,10 @@
 pragma solidity ^0.8.20;
 
 import "./MyToken.sol";
+import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
-contract Staking {
-    MyToken public token;
+contract Staking is ReentrancyGuard {
+    MyToken public immutable token;
 
     mapping(address => uint) public balance;
 
@@ -19,7 +20,7 @@ contract Staking {
         balance[msg.sender] += amount;
     }
 
-    function withdraw() public {
+    function withdraw() public nonReentrant {
         uint amount = balance[msg.sender];
         require(amount > 0, "Nada para sacar");
 
